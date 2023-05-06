@@ -1,0 +1,102 @@
+[
+    {
+        "ans": [
+            " question : How many red peaches are in the basket? answer : 19 question : how many yellow peaches : 11 question : : How much more red pe peaches than yellow peached are in question : 19-11"
+        ]
+    },
+    {
+        "ans": [
+            " question : How much money did Gwen's mom give her? answer : 8 question : how much money does Gwen have from her dad? answer question : 5 question : : How many money didGwen spend? answer How much more money doesGwen receive from her mom than her dad question : 8-4-5"
+        ]
+    },
+    {
+        "ans": [
+            " question : How much money did the ring toss game make in total? answer : 420 question : how many days did they play the game? answer question : 30 question : : How many money did they earn from the game together? question : 22 question : If the amount of money they made in total is subtracted from the total number of days played, how much money does the game make per day? answer: 420/30"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many apps were on Dave's phone originally? answer : 16 question : how many apps did Dave have after deleting some? answer question : 5 question : : How much apps didDave delete in total? question : 16+5"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many sweet cookies did Paco have? answer : 39 question : how many salty cookies didPaco have in total? question : 39 answer : 6 question : : How much sweet cookies does Paco eat? answer question : 32 answer : 23 question How many salt cookies doesPaco eat: 23 question : If the number of sweet cookies is subtracted from the total number of cookies, and the number : 39-23 = 6"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many trees did Haley grow in her backyard? answer : 13 question : how many trees died after the typhoon? answer question : 6 question : : How much trees would be left if the number of trees that died is subtracted from the total number of Trees? question : 13-6"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many kids did Julia play with on Monday? answer : 18 question : how many children did Julia played with on Tuesday? answer: 10 question : : How much more kids does Julia play on Monday than on Tuesday question : 18-10"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many sony games does Kelly have? answer : 46 question : how many sONY games doesKelly want to have in total? answer: 31 question : : How much sony game does Kelly want to give away? answer question : 31"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many green peaches are in the basket? answer : 11 question : how many red peaches? question : 5 question : : How much more green pe peaches than red peached are in question : 11-5"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many cards did Nell have after giving some away? answer : 154 question : how many cards does Nell give away? question : 301 question : HOW many cards would Nell be left if the number of cards she gave away is subtracted from the total number ofcards she had? answer: 154-301"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many kids did Julia play with on Monday? answer : 15 question : how many children did Julia played with on Tuesday? question : 18 question : : How number of kids didJulia play with in total on Monday, 18 on Tuesday and 97 on wednesday? answer question : 15+18"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many pages of math homework did she have to complete? answer : 9 question : how many pages did she need to complete in total? answer question : 9+2=9 question : 12 answer : If the number of pages of homework she had to complete is subtracted from the total number of books she had complete? question : 13-2=5"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many campers went rowing in the morning? answer : 36 question : how many camper went rowings in the afternoon? question : 13 question : : How number of campers did rowing at the evening? answer: 49 question : If the number of campsers that went rowen in total is subtracted from the total number of Campers? answer question : 36+13+49"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many marbles were in Josh's collection originally? answer : 4 question : how much marbles did Josh lose? question : 16 question : : How much marble did Josh find? answer question : 8 question : If the number of marbles Josh lost is subtracted from the total collection, how many more marbles does Josh lose than those he found? answer: 16-8"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many bottle caps did Danny find at the park? answer : 11 question : how many wrappers didDanny find at : 28 question : : How much bottle caps does Danny have in his collection now? question : 68 question : If the number of bottle caps Danny found at thepark is subtracted from the total number of bottles caps Danny has in hiscollection? answer: 68-11"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many books did Paul have in total? answer : 71 question : how much books did he sell in the garage sale? answer question : 33 question : : How much did he buy? question : 38 question : If the number of books he had after selling some is subtracted from the total number of pages he had, how many books does he have now? answer: 116-33"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many balloons did Allan bring to the park? answer : 7 question : how many balls did AllanBring : 5 question : : How much balloons did Jake bring to question : 6 question: How many balloon are there in total? answers : 7+6 question : 13.0 answer : How number of balls are there at total? question : 12 answer : If there are 12 balloons in total, and 7 of them are balls, how many must be balloons?"
+        ]
+    },
+    {
+        "ans": [
+            " question : How much money do you have? answer : 104 question : how much does each pack of DVDs cost? question : 26 question : : How many packs of DVDs can you buy if you divide the money you have by the cost of each pack? answer: 104/26"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many nintendo games does Kelly have? answer : 20 question : how many sony games doesKelly has. answer : 70"
+        ]
+    },
+    {
+        "ans": [
+            " question : How many kids did Julia play with on Monday? answer : 11 question : how many children did Julia played with on Tuesday? answer: 12 question : : How much more kids does Julia play in total on Tuesday than on Monday question : 12-11"
+        ]
+    }
+]

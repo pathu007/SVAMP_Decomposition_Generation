@@ -1,0 +1,182 @@
+{
+   "instance_1":{
+      "context":"The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 9 inches. The mouse jumped 3 inches lesser than the frog who jumped 33 inches farther than the grasshopper.",
+      "original_question":"How far did the mouse jump?",
+      "decomposition":[
+         {
+            "question": "How many inches did the frog jumpped, if the grasshopper jumped 9 inches?",
+            "answer": "9.0 + 33.0"
+         },
+         {
+            "question": "How many inches did the mouse jumped, if the frog jumped as in question_1?",
+            "answer": "9.0 + 33.0 - 3.0"
+         },
+         {
+            "question": "Solve equation in question_2",
+            "answer": "39.0"
+         }
+      ]
+   },
+   "instance_2":{
+    "context":"Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days",
+    "original_question":"How many kids did she play with altogether?",
+    "decomposition":[
+       {
+          "question": "How many kids she play with on monday?",
+          "answer": "12"
+       },
+       {
+          "question": "How many kids she play on tuesday?",
+          "answer": "14"
+       },
+       {
+          "question": "Summation question_1 and question_2",
+          "answer": "26"
+       }
+    ]
+ },
+ "instance_3":{
+    "context":"Emily is making bead necklaces for her 43 friends. She had 20 beads and she was able to make 5 necklaces.",
+    "original_question":"How many beads did each necklace need?",
+    "decomposition":[
+       {
+          "question": "How many total beads Emily had?",
+          "answer": "20.0"
+       },
+       {
+          "question": "How many necklaces in total Emily would be able to make?",
+          "answer": "5.0"
+       },
+       {
+          "question": "Devide question_1 with question_2",
+          "answer": "4.0"
+       }
+    ]
+ },
+ "instance_4":{
+    "context":"Winter is almost here and most animals are migrating to warmer countries. There were 89 bird families living near the mountain. If 60 bird families flew away for winter",
+    "original_question":"How many more bird families flew away for the winter than those that stayed behind?",
+    "decomposition":[
+       {
+          "question": "How many bird families flew away for the winter?",
+          "answer": "60.0"
+       },
+       {
+          "question": "If question_1 bird familes flew away, how many bird families stayed behind?",
+          "answer": "89.0 - 60.0"
+       },
+       {
+          "question": "Subtract question_2 from question_1",
+          "answer": "31.0"
+       }
+    ]
+ },
+ "instance_5":{
+    "context":"Matthew had some crackers. If Matthew gave 2 crackers to each of his 11 friends",
+    "original_question":"How many crackers did Matthew have?",
+    "decomposition":[
+       {
+          "question": "How many friends Matthew have?",
+          "answer": "11.0"
+       },
+       {
+          "question": "How many crackers did Matthew gave to each of his friends?",
+          "answer": "2.0"
+       },
+       {
+          "question": "Multiply question_1 with question_2",
+          "answer": "22.0"
+       }
+    ]
+ },
+ "instance_6":{
+    "context":"If Lewis earns $ 1357 every week during the 223 weeks of a harvest season.",
+    "original_question":"How much money will he earn if he works for 73 harvest seasons?",
+    "decomposition":[
+       {
+          "question": "How much money Lewis earns every week?",
+          "answer": "1357.0"
+       },
+       {
+          "question": "how many weeks are there in 73 harvest seasons?",
+          "answer": "73.0 * 223.0"
+       },
+       {
+          "question": "Multiply question_1 with question_2",
+          "answer": "22090603.0"
+       }
+    ]
+ },
+ "instance_7":{
+    "context":"If each bag has 41 cookies and you had 53 bags of cookies",
+    "original_question":"How many cookies would you have?",
+    "decomposition":[
+       {
+          "question": "How many cookies are there in each bag?",
+          "answer": "41.0"
+       },
+       {
+          "question": "How many bags of cookies do you have?",
+          "answer": "53.0"
+       },
+       {
+          "question": "Multiply question_1 and question_2",
+          "answer": "2173.0"
+       }
+    ]
+ },
+ "instance_8":{
+    "context":"The Razorback t-shirt shop made $ 51 dollars from selling 3 t-shirt during the Arkansas and Texas tech game they.",
+    "original_question":"What is the cost of each t-shirt?",
+    "decomposition":[
+       {
+          "question": "How much money did the Razorback t-shirt shop made?",
+          "answer": "51.0"
+       },
+       {
+          "question": "How many t-shirts the Razorback t-shirt shop sold?",
+          "answer": "3.0"
+       },
+       {
+          "question": "Devide question_1 with question_2",
+          "answer": "17.0"
+       }
+    ]
+ },
+ "instance_9":{
+    "context":"Dan has $ 5. He bought a candy bar for $ 2 and a chocolate for $ 3.",
+    "original_question":"How much money did he spend to buy chocolate than he did to buy candy bar?",
+    "decomposition":[
+       {
+          "question": "How much money did he spend to buy a chocolate?",
+          "answer": "3.0"
+       },
+       {
+          "question": "How much money did he spend to buy a candy?",
+          "answer": "2.0"
+       },
+       {
+          "question": "Subtract question_2 from question_1",
+          "answer": "1.0"
+       }
+    ]
+ },
+ "instance_10":{
+    "context":"There are 141 pots. Each pot has 71 flowers and 91 sticks in it.",
+    "original_question":"How many flowers are there in all?",
+    "decomposition":[
+       {
+          "question": "How many flowers are there in each pot?",
+          "answer": "71.0"
+       },
+       {
+          "question": "How many pots are there in total?",
+          "answer": "141.0"
+       },
+       {
+          "question": "Multiply question_1 with question_2",
+          "answer": "10011.0"
+       }
+    ]
+ }
+}   

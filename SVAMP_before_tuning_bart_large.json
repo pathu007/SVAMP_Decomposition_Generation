@@ -1,0 +1,102 @@
+[
+    {
+        "ans": [
+            "context : 19 red peaches, 11 yellow peaches and 12 green peaches are in the basket. question : How many peaches do you have in your basket?"
+        ]
+    },
+    {
+        "ans": [
+            "context : For Gwen's birthday she received 8 dollars from her mom. If she spent 4 dollars. Her dad gave her 5 more dollars. question : How much more money did she spend on her birthday than she did from her dad?"
+        ]
+    },
+    {
+        "ans": [
+            "context : The ring toss game at the carnival made the same amount of money each day. Together with game they earned 22 dollars. In total in 30 days they earned 420 dollars.question : How much did ring toss games make per day?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Dave had 16 apps and 77 files on his phone. After deleting some apps and files he had 5 apps and 23 files left. question : How many apps did he delete?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Paco had 39 sweet cookies and 6 salty cookies. He ate 23 salty cookies and 32 sweet cookies. question : How many more sweet cookies than salty cookies did he eat?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Haley grew 13 trees in her backyard. After a typhoon 6 died. question : How many more trees survived the typhoon than those that died?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Julia played tag with 18 kids on monday. question : How many more kids did she play tag with on tuesday?context : She didn't play tag. She played tag tag with 10 kids on july.question: How many kids did Julia play with?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Kelly has 46 nintendo games and 132 sony games. question : How many sONY games does she need to give away so that she will have all of her games left?"
+        ]
+    },
+    {
+        "ans": [
+            "context : 5 red peaches and 11 green peaches are in the basket. question : What is the difference in the number of peaches?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Nell collects baseball cards. She gave 301 of her cards to Jeff and now has 154 cards left.. question : How many cards did Nell have initially?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Julia played tag with 15 kids on monday, 18 kids on tuesday and 97 kids on wednesday. question : How many kids did she play tag with on each day, and how many did they play together?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Rachel had to complete 9 pages of math homework, 2 pages of reading homework and 96 more pages of biology homework.question : How many pages of science homework did she have?"
+        ]
+    },
+    {
+        "ans": [
+            "context : 36 campers went rowing in the morning and 49 campers in the afternoon. question : How did the campers go rowing today? context : 13 campers going rowingIn the afternoon"
+        ]
+    },
+    {
+        "ans": [
+            "context : Josh had 4 marbles in his collection. He lost 16 marbles and found 8 new ones. question : How many more marbles did he lose than those he found?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Danny collects bottle caps and wrappers. He went to the park to look for them. He found 11 bottle caps, 28 wrappers at the park. Now he has 68 bottle Caps and 51 wrappers in his collection. question : How many more wrappers than bottle caps did danny find at the Park?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Paul had 71 books. After selling some in a garage sale he bought 38 new ones. If he has 116 books now question : How many more books did he buy than he sold?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Allan brought 7 balloons and 5 balls while Jake brought 6 balloons and 4 balls to the park. question : How many balls did Allan and Jake have in the park?"
+        ]
+    },
+    {
+        "ans": [
+            "context : You have 104 dollars. question : How many packs of dvds can you buy if each pack costs 26 dollars?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Kelly has 20 nintendo games and 70 sony games. She has given away 12 of them to her friends. question : How many ninton games does she need to give away so that she will have 12 nintendo game left?"
+        ]
+    },
+    {
+        "ans": [
+            "context : Julia played tag with 11 kids on monday. She played tag tag with 12 kids on tuesday. question : How many more kids did she play tag with on tTuesday than on tonday?"
+        ]
+    }
+]

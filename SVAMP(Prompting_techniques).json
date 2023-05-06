@@ -1,0 +1,14 @@
+{
+    "Chain-of-thought Prompting": {
+      "explaination": "In this method, we use the idea of natural language rational means a series of intermediate reasoning steps, as demonstrations  with few-shot learning to generate a prompt which will make GPT3 learn to decompose questions. ",
+      "referece_papers": "https://arxiv.org/pdf/2201.11903.pdf"
+    },
+    "Least-to-most Prompting": {
+      "explaination": "This prompting method works in two phases, first it divides complex questions into a set of simpler sub-questions and in phase two it solves these subproblems sequentially reaching the final answer. It has an inherent structure which suits our task of decomposing a question to answer it.",
+      "referece_papers": "https://arxiv.org/pdf/2205.10625.pdf"
+    },
+    "Hybrid-way": {
+      "explaination": "We allow GPT3 to first formulate chain-of-thought reasoning and ask GPT3 to use this reasoning to formulate decompositions. It allows GPT3 to generate accurate decompositions for SVMP tasks.",
+      "referece_papers": "N/A"
+    }
+}

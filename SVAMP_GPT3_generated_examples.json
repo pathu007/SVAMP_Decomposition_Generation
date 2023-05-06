@@ -1,0 +1,124 @@
+{
+   "instance_1":{
+      "context":"Randy has 90 blocks. He uses 89 blocks to build a house and 63 blocks to build a tower.",
+      "original_question":"How many more blocks did he use to build the house than he did to build the tower?",
+      "decomposition":[
+         {
+            "question": "How many blocks did he use to build the house?",
+            "answer": "89"
+         },
+         {
+            "question": "How many blocks did he use to build the tower?",
+            "answer": "63"
+         },
+         {
+            "question": "Subtraction of question_1 and question_2",
+            "answer": "26"
+         }
+      ]
+   },
+   "instance_2":{
+      "context":"Jerry had 8 action figures on a shelf in his room. Later he added 4 more action figures to the shelf and removed 5 old ones.",
+      "original_question":"How many action figures were on his shelf in all?",
+      "decomposition":[
+         {
+            "question": "How many action figures were on his shelf at first?",
+            "answer": "8"
+         },
+         {
+            "question": "How many action figures did he add to the shelf?",
+            "answer": "4"
+         },
+         {
+            "question": "How many action figures were on the shelf in the end?",
+            "answer": "8 + 4 - 5"
+         }
+      ]
+   },
+   "instance_3":{
+    "context":"Brenda's mother made cookies for 10 guests but 9 guests did not come. If she prepared 18 cookies and each guest had the same number of cookies.",
+    "original_question":"How many did each of them have?",
+    "decomposition":[
+       {
+          "question": "How many guests came?",
+          "answer": "10 - 9"
+       },
+       {
+          "question": "How many cookies were prepared?",
+          "answer": "18"
+       },
+       {
+          "question": "How many cookies did each guest have?",
+          "answer": "18/(10-9)"
+       }
+    ]
+    },
+    "instance_4":{
+        "context":"They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables.",
+        "original_question":"How many more chairs than tables do they have?",
+        "decomposition":[
+           {
+              "question": "How many chairs are there in total?",
+              "answer": "14 * 9"
+           },
+           {
+              "question": "How many tables are there in total?",
+              "answer": "9"
+           },
+           {
+              "question": "How many more chairs than tables do they have?",
+              "answer": "14 * 9 - 9"
+           }
+        ]
+    },
+    "instance_5":{
+        "context":"It takes Amy 4 minutes to climb to the top of a slide. It takes her 1 minute to slide down. The water slide closes in 15 minutes.",
+        "original_question":"How many times can she slide before it closes?",
+        "decomposition":[
+           {
+              "question": "How long does it take her to climb up and slide down?",
+              "answer": "4 + 1"
+           },
+           {
+              "question": "How many times can she slide before it closes?",
+              "answer": "15/(4+1)"
+           }
+        ]
+    },
+    "instance_6":{
+        "context":"Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls.",
+        "original_question":"How many tennis balls does he have now?",
+        "decomposition":[
+           {
+              "question": "How many tennis balls does he have at first?",
+              "answer": "5"
+           },
+           {
+              "question": "How many cans of tennis balls does he buy?",
+              "answer": "2"
+           },
+           {
+              "question": "How many tennis balls are in each can?",
+              "answer": "3"
+           },
+           {
+              "question": "How many tennis balls does he have now?",
+              "answer": "5 + 2*3"  
+           }
+        ]
+    },
+    "instance_7":{
+        "context":"The concert was scheduled to be on 06/01/1943, but was delayed by one day to today.",
+        "original_question":"What is the date 10 days ago in MM/DD/YYYY?",
+        "decomposition":[
+           {
+              "question": "What is the date of the concert?",
+              "answer": "06/01/1943"
+           },
+           {
+              "question": "What is the date 10 days ago?",
+              "answer": "05/22/1943"
+           }
+        ]
+    }   
+}

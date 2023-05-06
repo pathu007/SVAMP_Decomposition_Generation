@@ -1,0 +1,999 @@
+{
+    "instance_1": {
+        "context": "For the walls of the house he would use 13 large planks of wood. If each plank of wood needs 17 pieces of nails to be secured and in addition 8 nails are needed for some smaller planks.",
+        "original_question": "How many nails does John need for the house wall?",
+        "reasoning": " Decomposed Question 1: How many large planks of wood are being used for the walls of the house?",
+        "decomposition": [
+            {
+                "question": "13",
+                "answer": "How many nails are needed for each plank of wood?"
+            },
+            {
+                "question": "17",
+                "answer": "How many small planks of wood are being used for the walls of the house?"
+            },
+            {
+                "question": "8",
+                "answer": "How many nails are needed for the small planks of wood?"
+            },
+            {
+                "question": "8",
+                "answer": "Multiply question 1 by question 2 and add question 3"
+            }
+        ]
+    },
+    "instance_2": {
+        "context": "A grocery store had 54 bottles of diet soda, 83 bottles of regular soda and 12 apples.",
+        "original_question": "How many more bottles of regular soda than diet soda did they have?",
+        "reasoning": " The grocery store had 54 bottles of diet soda, 83 bottles of regular soda and 12 apples.",
+        "decomposition": [
+            {
+                "question": "How many bottles of diet soda did they have?",
+                "answer": "54"
+            },
+            {
+                "question": "How many bottles of regular soda did they have?",
+                "answer": "83"
+            },
+            {
+                "question": "How many bottles of regular soda were more than diet soda?",
+                "answer": "83-54"
+            }
+        ]
+    },
+    "instance_3": {
+        "context": "Because of the decision Sofia asked the students to suggest specific types of food. If 269 students suggested adding bacon 330 suggested adding mashed potatoes to the menu and 76 suggested adding tomatoes",
+        "original_question": "How many more students suggested mashed potatoes than those that suggested bacon?",
+        "reasoning": " 269 students suggested adding bacon, 330 suggested adding mashed potatoes, and 76 suggested adding tomatoes. To find the number of students who suggested mashed potatoes more than those that suggested bacon, we need to find the difference between the number of students that suggested adding mashed potatoes and the number of students that suggested adding bacon.",
+        "decomposition": [
+            {
+                "question": "How many students suggested adding bacon?",
+                "answer": "269"
+            },
+            {
+                "question": "How many students suggested adding mashed potatoes?",
+                "answer": "330"
+            },
+            {
+                "question": "How many students suggested adding tomatoes?",
+                "answer": "76"
+            },
+            {
+                "question": "How many more students suggested adding mashed potatoes than those that suggested adding bacon?",
+                "answer": "330-269"
+            }
+        ]
+    },
+    "instance_4": {
+        "context": "Brenda's mother made cookies for 14. If each of them had 30 cookies",
+        "original_question": "How many cookies did she prepare?",
+        "reasoning": " Brenda's mother made cookies for 14. If each of them had 30 cookies, then that would leave 14*30 = 420 cookies.",
+        "decomposition": [
+            {
+                "question": "How many people did Brenda's mother make cookies for?",
+                "answer": "14"
+            },
+            {
+                "question": "How many cookies did each person have?",
+                "answer": "30"
+            },
+            {
+                "question": "How many cookies would be left if the number of cookies each person had is multiplied by the total number of people?",
+                "answer": "14*30"
+            }
+        ]
+    },
+    "instance_5": {
+        "context": "Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left.",
+        "original_question": "How many more apps did he delete than he added?",
+        "reasoning": " Dave added 71 apps and then deleted some so he must have deleted more than he added. To find out how many more he deleted than he added, we need to find out how many apps he deleted in total.",
+        "decomposition": [
+            {
+                "question": "How many apps were on Dave's phone in the beginning?",
+                "answer": "15"
+            },
+            {
+                "question": "How many apps did Dave add?",
+                "answer": "71"
+            },
+            {
+                "question": "How many apps did Dave have in the end?",
+                "answer": "14"
+            },
+            {
+                "question": "How many apps did Dave delete in total?",
+                "answer": "71-14"
+            }
+        ]
+    },
+    "instance_6": {
+        "context": "Kelly has 106 nintendo games.",
+        "original_question": "How many will she have left if she gives away 64 games?",
+        "reasoning": "",
+        "decomposition": [
+            {
+                "question": "How many nintendo games does Kelly have?",
+                "answer": "106"
+            },
+            {
+                "question": "How many nintendo games will Kelly give away?",
+                "answer": "64"
+            },
+            {
+                "question": "How many nintendo games will Kelly have left if she gives away 64 games?",
+                "answer": "106-64"
+            }
+        ]
+    },
+    "instance_7": {
+        "context": "Matthew had 15 crackers. If Matthew gave equal numbers of crackers to his 5 friends and still had 10 crackers left",
+        "original_question": "How many crackers did each friend eat?",
+        "reasoning": " Matthew had 15 crackers. He gave 5 friends an equal number of crackers and had 10 left over. So each friend must have eaten 3 crackers.",
+        "decomposition": [
+            {
+                "question": "How many crackers did Matthew have in total?",
+                "answer": "15"
+            },
+            {
+                "question": "How many friends did Matthew have?",
+                "answer": "5"
+            },
+            {
+                "question": "How many crackers did Matthew have left over?",
+                "answer": "10"
+            }
+        ]
+    },
+    "instance_8": {
+        "context": "Frank had 42 pieces of candy. If he put them equally into 2 bags",
+        "original_question": "How many pieces of candy are in each bag?",
+        "reasoning": " Frank had 42 pieces of candy. If he put them equally into 2 bags, then each bag would have 42/2 = 21 pieces of candy.",
+        "decomposition": [
+            {
+                "question": "How many pieces of candy did Frank have?",
+                "answer": "42"
+            },
+            {
+                "question": "How many bags did Frank put the candy into?",
+                "answer": "2"
+            },
+            {
+                "question": "How many pieces of candy would be in each bag if the candy was distributed evenly?",
+                "answer": "42/2"
+            }
+        ]
+    },
+    "instance_9": {
+        "context": "Jack received 6 emails in the morning and 2 emails in the afternoon.",
+        "original_question": "How many more emails did Jack receive in the morning than in the afternoon?",
+        "reasoning": " Jack received 6 emails in the morning and 2 emails in the afternoon. This means Jack received 6-2 = 4 more emails in the morning.",
+        "decomposition": [
+            {
+                "question": "How many emails did Jack receive in the morning?",
+                "answer": "6"
+            },
+            {
+                "question": "How many emails did Jack receive in the afternoon?",
+                "answer": "2"
+            },
+            {
+                "question": "How many more emails did Jack receive in the morning than in the afternoon?",
+                "answer": "6-2"
+            }
+        ]
+    },
+    "instance_10": {
+        "context": "Baker made 43 cakes and 114 pastries. If he sold 154 pastries and 78 cakes",
+        "original_question": "How many more pastries than cakes did baker sell?",
+        "reasoning": " Baker sold 154 pastries and 78 cakes. 154-78 = 76. So, he sold 76 more pastries than cakes",
+        "decomposition": [
+            {
+                "question": "How many pastries did baker sell?",
+                "answer": "154"
+            },
+            {
+                "question": "How many cakes did baker sell?",
+                "answer": "78"
+            },
+            {
+                "question": "How many more pastries than cakes did baker sell?",
+                "answer": "154-78"
+            }
+        ]
+    },
+    "instance_11": {
+        "context": "Haley has 20 marbles. In her class 2 boys love to play marbles. If she distributes her marbles equally",
+        "original_question": "How many will each of the boys receive?",
+        "reasoning": " Haley has 20 marbles. In her class 2 boys love to play marbles. If she distributes her marbles equally, then each boy will get 20/2 = 10 marbles.",
+        "decomposition": [
+            {
+                "question": "How many marbles does Haley have?",
+                "answer": "20"
+            },
+            {
+                "question": "How many boys are in her class that love to play marbles?",
+                "answer": "2"
+            },
+            {
+                "question": "If she distributes her marbles equally, then how many marbles will each boy get?",
+                "answer": "20/2"
+            }
+        ]
+    },
+    "instance_12": {
+        "context": "They decided to hold the party in their backyard. They have 4 sets of tables and each set has 3 chairs. If a total of 14 people will attend the party",
+        "original_question": "How many more chairs will they have to buy?",
+        "reasoning": " They have 4 sets of tables and each set has 3 chairs. If a total of 14 people will attend the party, then that would leave 14-4*3 = 2 chairs.",
+        "decomposition": [
+            {
+                "question": "How many sets of tables do they have?",
+                "answer": "4"
+            },
+            {
+                "question": "How many chairs are in each set?",
+                "answer": "3"
+            },
+            {
+                "question": "How many people will attend the party?",
+                "answer": "14"
+            },
+            {
+                "question": "How many chairs will be left if the number of people attending the party is subtracted from the total number of chairs?",
+                "answer": "14-4*3"
+            }
+        ]
+    },
+    "instance_13": {
+        "context": "Last week Fred had 19 dollars and Jason had 16 dollars. They washed cars over the weekend and now Fred has 40 dollars and Jason has 69 dollars.",
+        "original_question": "How much money did Fred earn over the weekend?",
+        "reasoning": " Fred started with 19 dollars and Jason started with 16 dollars. Over the weekend, Fred earned 40 dollars and Jason earned 69 dollars. To find out how much money Fred earned, we need to subtract his starting amount from his ending amount.",
+        "decomposition": [
+            {
+                "question": "How much money did Fred have at the beginning of the week?",
+                "answer": "19"
+            },
+            {
+                "question": "How much money did Jason have at the beginning of the week?",
+                "answer": "16"
+            },
+            {
+                "question": "How much money did Fred have at the end of the week?",
+                "answer": "40"
+            },
+            {
+                "question": "How much money did Jason have at the end of the week?",
+                "answer": "69"
+            },
+            {
+                "question": "How much money did Fred earn over the weekend?",
+                "answer": "40-19"
+            }
+        ]
+    },
+    "instance_14": {
+        "context": "Paco had 25 cookies. He ate 5 of them. Then he bought 3 more cookies",
+        "original_question": "How many more cookies did he eat than those he bought?",
+        "reasoning": " Paco ate 5 cookies and then he bought 3 more. He ate 2 more cookies than he bought",
+        "decomposition": [
+            {
+                "question": "How many cookies did Paco have in total?",
+                "answer": "25"
+            },
+            {
+                "question": "How many cookies did Paco eat?",
+                "answer": "5"
+            },
+            {
+                "question": "How many cookies did Paco buy?",
+                "answer": "3"
+            },
+            {
+                "question": "How many more cookies did Paco eat than those he bought?",
+                "answer": "5-3"
+            }
+        ]
+    },
+    "instance_15": {
+        "context": "Rachel has 4 apple trees. She picked 7 apples from each of her trees. Now the trees have a total 29 apples still on them.",
+        "original_question": "How many apples did Rachel pick in all?",
+        "reasoning": " Rachel has 4 apple trees. She picked 7 apples from each of her trees. So she would have 4*7=28 apples. Now the trees have 29 apples, so she must have picked 29-4=25 apples.",
+        "decomposition": [
+            {
+                "question": "How many apple trees does Rachel have?",
+                "answer": "4"
+            },
+            {
+                "question": "How many apples does each tree have?",
+                "answer": "7"
+            },
+            {
+                "question": "How many apples would Rachel have if she picked from each tree?",
+                "answer": "4*7"
+            },
+            {
+                "question": "How many apples are on the trees now?",
+                "answer": "29"
+            },
+            {
+                "question": "How many apples did Rachel pick in total?",
+                "answer": "29-4"
+            }
+        ]
+    },
+    "instance_16": {
+        "context": "Jake has 8 fewer peaches and 10 more apples than Steven. Steven has 11 apples and 18 peaches.",
+        "original_question": "How many more peaches than apples does Steven have?",
+        "reasoning": " Steven has 11 apples and 18 peaches, while Jake has 8 fewer peaches and 10 more apples. This leaves Jake with 10 apples and 18 - 8 = 10 peaches. Steven therefore has 11 - 10 = 1 more peach than Jake, and 11 - 10 = 1 more peach than Jake.",
+        "decomposition": [
+            {
+                "question": "How many apples does Jake have?",
+                "answer": "10"
+            },
+            {
+                "question": "How many peaches does Jake have?",
+                "answer": "10"
+            },
+            {
+                "question": "How many apples does Steven have?",
+                "answer": "11"
+            },
+            {
+                "question": "How many peaches does Steven have?",
+                "answer": "18"
+            }
+        ]
+    },
+    "instance_17": {
+        "context": "A grocery store had a total of 30 bottles of which 28 were bottles of regular soda and the rest were bottles of diet soda.",
+        "original_question": "How many bottles of diet soda did they have?",
+        "reasoning": " 28 bottles were regular soda, so the rest must have been diet soda.",
+        "decomposition": [
+            {
+                "question": "How many bottles of regular soda were there?",
+                "answer": "28"
+            }
+        ]
+    },
+    "instance_18": {
+        "context": "The Ferris wheel in paradise park has 2 small seats and 23 large seats. Each small seat can hold 14 people and large seat can hold 54 people.",
+        "original_question": "How many people can ride the Ferris wheel on small seats?",
+        "reasoning": " There are 2 small seats and each small seat can hold 14 people. So, the answer is 2*14 = 28.",
+        "decomposition": [
+            {
+                "question": "How many small seats are there?",
+                "answer": "2"
+            },
+            {
+                "question": "How many people can sit in 1 small seat?",
+                "answer": "14"
+            }
+        ]
+    },
+    "instance_19": {
+        "context": "Debby bought 360 soda bottles and 162 water bottles when they were on sale. If she drank 122 water bottles and 9 soda bottles a day",
+        "original_question": "How many days would the soda bottles last?",
+        "reasoning": " If Debby drank 122 water bottles and 9 soda bottles a day, then she would need 360/9 = 40 days to finish the soda bottles.",
+        "decomposition": [
+            {
+                "question": "How many soda bottles did Debby buy?",
+                "answer": "360"
+            },
+            {
+                "question": "How many water bottles did Debby buy?",
+                "answer": "162"
+            },
+            {
+                "question": "How many soda bottles did Debby drink each day?",
+                "answer": "9"
+            },
+            {
+                "question": "How many days would it take Debby to finish the soda bottles if she drank 9 soda bottles a day?",
+                "answer": "360/9"
+            }
+        ]
+    },
+    "instance_20": {
+        "context": "A grocery store had 4 bottles of diet soda. If they had 79 more bottles of regular soda than diet soda",
+        "original_question": "How many bottles of regular soda did they have?",
+        "reasoning": " If they had 4 bottles of diet soda and 79 more bottles of regular soda, that would leave a total of 4+79 = 83 bottles of regular soda.",
+        "decomposition": [
+            {
+                "question": "How many bottles of diet soda were there?",
+                "answer": "4"
+            },
+            {
+                "question": "How many more bottles of regular soda were there than diet soda?",
+                "answer": "79"
+            },
+            {
+                "question": "How many bottles of regular soda were there in total?",
+                "answer": "4+79"
+            }
+        ]
+    },
+    "instance_21": {
+        "context": "During the Arkansas and Texas tech game the Razorback t-shirt shop made $ 60 by selling t-shirts. If they make $ 10 dollars off each t-shirt sold",
+        "original_question": "How many t-shirts did they sell?",
+        "reasoning": " The t-shirt shop made $60 by selling t-shirts. If they make $10 dollars off each t-shirt sold, then they would have sold 60/10 = 6 t-shirts.",
+        "decomposition": [
+            {
+                "question": "How much money did the t-shirt shop make by selling t-shirts?",
+                "answer": "60"
+            },
+            {
+                "question": "How much money does the t-shirt shop make off of each t-shirt sold?",
+                "answer": "10"
+            },
+            {
+                "question": "How many t-shirts would the t-shirt shop have sold if they made $60?",
+                "answer": "60/10"
+            }
+        ]
+    },
+    "instance_22": {
+        "context": "Frank was reading through his favorite book. He read 22 pages per day and it took him 569 days to finish the book.",
+        "original_question": "How many pages are there in the book?",
+        "reasoning": " Frank read 22 pages per day and it took him 569 days to finish the book. If it took him 569 days to finish the book, that means he read 569*22 = 12558 pages in total.",
+        "decomposition": [
+            {
+                "question": "How many pages did Frank read per day?",
+                "answer": "22"
+            },
+            {
+                "question": "How many days did it take Frank to finish the book?",
+                "answer": "569"
+            },
+            {
+                "question": "How many pages were in the book if Frank read 22 pages per day and it took him 569 days to finish the book?",
+                "answer": "569*22"
+            }
+        ]
+    },
+    "instance_23": {
+        "context": "Winter is almost here and most animals are migrating to warmer countries. 86 bird families flew away for the winter from near a mountain. If there were 45 bird families living near the mountain initially",
+        "original_question": "How many more bird families flew away for the winter than those that stayed behind?",
+        "reasoning": " 86 bird families flew away and 45 bird families stayed, so the difference is 86-45=41.",
+        "decomposition": [
+            {
+                "question": "How many bird families flew away for the winter?",
+                "answer": "86"
+            },
+            {
+                "question": "How many bird families were living near the mountain?",
+                "answer": "45"
+            }
+        ]
+    },
+    "instance_24": {
+        "context": "Allan brought 2 balloons to the park and then bought 3 more balloons there. If Jake brought 6 balloons to the park",
+        "original_question": "How many more balloons did Jake have than Allan in the park?",
+        "reasoning": " Jake brought 6 balloons to the park and Allan brought 2 balloons to the park and then bought 3 more balloons there. Jake would have 3 more balloons than Allan.",
+        "decomposition": [
+            {
+                "question": "How many balloons did Allan bring to the park?",
+                "answer": "2"
+            },
+            {
+                "question": "How many balloons did Allan buy at the park?",
+                "answer": "3"
+            },
+            {
+                "question": "How many balloons did Jake bring to the park?",
+                "answer": "6"
+            },
+            {
+                "question": "How many more balloons did Jake have than Allan?",
+                "answer": "6-(2+3)"
+            }
+        ]
+    },
+    "instance_25": {
+        "context": "Bryan took a look at his books and magazines. If he has 9 books and 46 magazines in each of his 10 bookshelves",
+        "original_question": "How many magazines does he have in total?",
+        "reasoning": " Bryan has 9 books and 46 magazines in each of his 10 bookshelves. To find the total number of magazines, Bryan would have to multiply 46 by 10 to get 460 magazines in total.",
+        "decomposition": [
+            {
+                "question": "How many shelves does Bryan have?",
+                "answer": "10"
+            },
+            {
+                "question": "How many books are on each shelf?",
+                "answer": "9"
+            },
+            {
+                "question": "How many magazines are on each shelf?",
+                "answer": "46"
+            },
+            {
+                "question": "How many magazines are in total?",
+                "answer": "46*10"
+            }
+        ]
+    },
+    "instance_26": {
+        "context": "Rachel had to complete 8 pages of math homework, 7 pages of reading homework and 3 more pages of biology homework.",
+        "original_question": "How many pages of math and biology homework did she have to complete?",
+        "reasoning": " Rachel had to complete 8 pages of math homework, and she had to complete 3 more pages of biology homework. So she had to complete a total of 8 + 3 = 11 pages of math and biology homework.",
+        "decomposition": [
+            {
+                "question": "How many pages of math homework did she have to complete?",
+                "answer": "8"
+            },
+            {
+                "question": "How many pages of biology homework did she have to complete?",
+                "answer": "3"
+            }
+        ]
+    },
+    "instance_27": {
+        "context": "Every day Ryan spends 2 hours on learning english, 5 hours on learning chinese and 4 hours on learning spanish.",
+        "original_question": "How many more hours does he spend on learning chinese than he does on learning spanish?",
+        "reasoning": " The total number of hours Ryan spends learning languages is 2+5+4=11. Of this, 5 is spent on learning chinese. Therefore, 5-4=1 hour more is spent on learning chinese than spanish.",
+        "decomposition": [
+            {
+                "question": "How many hours does Ryan spend on learning languages every day?",
+                "answer": "2+5+4=11"
+            },
+            {
+                "question": "How many hours does Ryan spend on learning chinese every day?",
+                "answer": "5"
+            },
+            {
+                "question": "How many hours does Ryan spend on learning spanish every day?",
+                "answer": "4"
+            },
+            {
+                "question": "How many more hours does Ryan spend on learning chinese than spanish?",
+                "answer": "5-4"
+            }
+        ]
+    },
+    "instance_28": {
+        "context": "2 birds were sitting on the fence. 5 more birds and 4 more storks came to join them.",
+        "original_question": "How many more birds than storks are sitting on the fence?",
+        "reasoning": " 2 birds were sitting on the fence. 5 more birds came to join them. 4 more storks came to join them. 5-4 = 1 more bird than stork.",
+        "decomposition": [
+            {
+                "question": "How many birds were sitting on the fence at the beginning?",
+                "answer": "2"
+            },
+            {
+                "question": "How many birds came to join them?",
+                "answer": "5"
+            },
+            {
+                "question": "How many storks came to join them?",
+                "answer": "4"
+            },
+            {
+                "question": "How many more birds than storks are sitting on the fence?",
+                "answer": "5-4"
+            }
+        ]
+    },
+    "instance_29": {
+        "context": "Paco had 6 cookies. He gave 30 cookies to his friend and ate 23 cookies.",
+        "original_question": "How many more cookies did he give to his friend than those he ate?",
+        "reasoning": " Paco gave 30 cookies to his friend. He ate 23 cookies. So he gave 30-23 = 7 more cookies to his friend than those he ate.",
+        "decomposition": [
+            {
+                "question": "How many cookies did Paco have in total?",
+                "answer": "6"
+            },
+            {
+                "question": "How many cookies did Paco give to his friend?",
+                "answer": "30"
+            },
+            {
+                "question": "How many cookies did Paco eat?",
+                "answer": "23"
+            },
+            {
+                "question": "How many more cookies did Paco give to his friend than those he ate?",
+                "answer": "30-23"
+            }
+        ]
+    },
+    "instance_30": {
+        "context": "Baker made 170 cakes. He sold 78 of them and bought 31 new cakes.",
+        "original_question": "How many more cakes did baker sell than those he bought?",
+        "reasoning": " Baker sold 78 of them and bought 31 new cakes.",
+        "decomposition": [
+            {
+                "question": "How many cakes did baker sell?",
+                "answer": "78"
+            },
+            {
+                "question": "How many cakes did baker buy?",
+                "answer": "31"
+            },
+            {
+                "question": "How many more cakes did baker sell than those he bought?",
+                "answer": "78-31"
+            }
+        ]
+    },
+    "instance_31": {
+        "context": "Shirley sold 25 cases of boxes of trefoils.",
+        "original_question": "How many boxes of trefoils does she need to deliver if each case has 14 boxes?",
+        "reasoning": " Shirley sold 25 cases of boxes of trefoils. Each case has 14 boxes, so she needs to deliver 14*25=350 boxes of trefoils.",
+        "decomposition": [
+            {
+                "question": "How many cases of boxes of trefoils did Shirley sell?",
+                "answer": "25"
+            },
+            {
+                "question": "How many boxes of trefoils are in each case?",
+                "answer": "14"
+            },
+            {
+                "question": "How many boxes of trefoils does Shirley need to deliver?",
+                "answer": "14*25"
+            }
+        ]
+    },
+    "instance_32": {
+        "context": "We ordered 17 pizzas. Each pizza has 4 slices. If there are 25 of us",
+        "original_question": "How many slices of pizza are there altogether?",
+        "reasoning": " There are 17 pizzas, each with 4 slices. That gives a total of 68 slices.",
+        "decomposition": [
+            {
+                "question": "How many pizzas did we order?",
+                "answer": "17"
+            },
+            {
+                "question": "How many slices are in each pizza?",
+                "answer": "4"
+            },
+            {
+                "question": "How many slices are in the total pizzas ordered?",
+                "answer": "17*4"
+            }
+        ]
+    },
+    "instance_33": {
+        "context": "There were 12 roses and 2 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 10 roses and 21 orchids in the vase.",
+        "original_question": "How many orchids did she cut?",
+        "reasoning": " There were 12 roses and 2 orchids in the vase to start. After Jessica cut some more, there are now 10 roses and 21 orchids in the vase. She cut 9 more orchids than roses.",
+        "decomposition": [
+            {
+                "question": "How many roses and orchids were in the vase to start?",
+                "answer": "12 roses and 2 orchids"
+            },
+            {
+                "question": "How many roses and orchids are in the vase now?",
+                "answer": "10 roses and 21 orchids"
+            },
+            {
+                "question": "How many more orchids than roses are in the vase now?",
+                "answer": "21-10 = 11"
+            }
+        ]
+    },
+    "instance_34": {
+        "context": "Mary is baking a cake. The recipe calls for 5 cups of flour and 14 cups of sugar. She already put in 10 cups of flour and 2 cups of sugar.",
+        "original_question": "How many more cups of sugar does she need to add?",
+        "reasoning": " The recipe calls for 5 cups of flour and 14 cups of sugar. She already put in 10 cups of flour and 2 cups of sugar. So she needs 14-2 = 12 cups of sugar.",
+        "decomposition": [
+            {
+                "question": "How many cups of flour does the recipe call for?",
+                "answer": "5"
+            },
+            {
+                "question": "How many cups of sugar does the recipe call for?",
+                "answer": "14"
+            },
+            {
+                "question": "How many cups of flour has Mary already put in?",
+                "answer": "10"
+            },
+            {
+                "question": "How many cups of sugar has Mary already put in?",
+                "answer": "2"
+            },
+            {
+                "question": "How many cups of sugar does Mary need to add?",
+                "answer": "14-2"
+            }
+        ]
+    },
+    "instance_35": {
+        "context": "Mom buys 51 white t - shirts. If white t - shirts can be purchased in packages of 3",
+        "original_question": "How many packages will she have?",
+        "reasoning": "",
+        "decomposition": []
+    },
+    "instance_36": {
+        "context": "Adam could fit 8 action figures and 10 cabinets on each shelf in his room. His room has 4 shelves.",
+        "original_question": "How many total items could his shelves hold?",
+        "reasoning": " There are 4 shelves. Each shelf can hold 8 action figures and 10 cabinets. So, the total number of items the shelves could hold would be 4*(8+10) = 96.",
+        "decomposition": [
+            {
+                "question": "How many shelves were in his room?",
+                "answer": "4"
+            },
+            {
+                "question": "How many action figures could fit on each shelf?",
+                "answer": "8"
+            },
+            {
+                "question": "How many cabinets could fit on each shelf?",
+                "answer": "10"
+            },
+            {
+                "question": "How many action figures and cabinets could fit on each shelf combined?",
+                "answer": "8+10"
+            }
+        ]
+    },
+    "instance_37": {
+        "context": "We ordered 7 pizzas. Each pizza has the same number of slices. If there were a total of 14 slices",
+        "original_question": "How many slices are there in each pizza?",
+        "reasoning": " If there were a total of 14 slices, and we ordered 7 pizzas, then that would mean that each pizza has 14/7 = 2 slices.",
+        "decomposition": [
+            {
+                "question": "How many pizzas were ordered?",
+                "answer": "7"
+            },
+            {
+                "question": "How many slices were there in total?",
+                "answer": "14"
+            },
+            {
+                "question": "How many slices are in each pizza if we divide the total number of slices by the number of pizzas ordered?",
+                "answer": "14/7"
+            }
+        ]
+    },
+    "instance_38": {
+        "context": "Mary is baking a cake. The recipe calls for 12 cups of flour 5 cups of sugar and 49 cups of salt. She already put in 11 cups of flour.",
+        "original_question": "How many more cups of flour does she need to add?",
+        "reasoning": " Mary needs to add 12 cups of flour to the cake. She has already put in 11 cups of flour. So she needs to add 1 more cup of flour.",
+        "decomposition": [
+            {
+                "question": "How many cups of flour does the recipe call for?",
+                "answer": "12"
+            },
+            {
+                "question": "How many cups of flour has Mary already put in?",
+                "answer": "11"
+            },
+            {
+                "question": "How many more cups of flour does Mary need to put in the cake?",
+                "answer": "12-11"
+            }
+        ]
+    },
+    "instance_39": {
+        "context": "The Razorback t-shirt shop makes $ 78 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 186 t-shirts. If they sold 172 t-shirts during the Arkansas game",
+        "original_question": "How much money did they make from selling the t-shirts during the Texas tech game?",
+        "reasoning": " The Razorback t-shirt shop makes $ 78 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 186 t-shirts. If they sold 172 t-shirts during the Arkansas game, then that would leave 186-172 = 14 t-shirts sold during the Texas Tech game.",
+        "decomposition": [
+            {
+                "question": "How much money does the Razorback t-shirt shop make from each t-shirt sold?",
+                "answer": "78"
+            },
+            {
+                "question": "How many t-shirts were sold during the Arkansas game?",
+                "answer": "172"
+            },
+            {
+                "question": "How many t-shirts were sold during the Texas Tech game?",
+                "answer": "14"
+            },
+            {
+                "question": "How much money was made from selling the t-shirts during the Texas Tech game?",
+                "answer": "14*78"
+            }
+        ]
+    },
+    "instance_40": {
+        "context": "We ordered some pizzas. Each pizza has 2 slices. If there were a total of 28 slices",
+        "original_question": "How many pizzas did we order?",
+        "reasoning": " We ordered some pizzas. Each pizza has 2 slices. If there were a total of 28 slices, then that would leave 28-2 = 26 pizzas.",
+        "decomposition": [
+            {
+                "question": "How many pizzas did we order in total?",
+                "answer": "28"
+            },
+            {
+                "question": "How many slices were in each pizza?",
+                "answer": "2"
+            },
+            {
+                "question": "How many pizzas would be left if the number of slices in each pizza is subtracted from the total number of slices?",
+                "answer": "28-2"
+            }
+        ]
+    },
+    "instance_41": {
+        "context": "Rebecca wants to split a collection of eggs into groups of 3. Rebecca has 99 bananas 9 eggs and 27 marbles.",
+        "original_question": "How many groups will be created?",
+        "reasoning": " Rebecca wants to split a collection of eggs into groups of 3. Rebecca has 99 bananas 9 eggs and 27 marbles.",
+        "decomposition": [
+            {
+                "question": "How many groups will Rebecca create if she splits her eggs into groups of 3?",
+                "answer": "3"
+            },
+            {
+                "question": "How many eggs does Rebecca have?",
+                "answer": "9"
+            },
+            {
+                "question": "How many bananas does Rebecca have?",
+                "answer": "99"
+            }
+        ]
+    },
+    "instance_42": {
+        "context": "41 children were riding on the bus. At the bus stop some children got off the bus. Then there were 18 children left on the bus.",
+        "original_question": "How many more children were on the bus before the bus stop than there are now?",
+        "reasoning": " 41 children were riding on the bus. 18 children are left on the bus. 41-18 = 23.",
+        "decomposition": [
+            {
+                "question": "How many children were riding on the bus?",
+                "answer": "41"
+            },
+            {
+                "question": "How many children got off the bus?",
+                "answer": "41-18"
+            }
+        ]
+    },
+    "instance_43": {
+        "context": "In Haley's class some boys love to play marbles. Haley gives 2 marbles to each boy. If she had 28 marbles",
+        "original_question": "How many boys did she give the marbles to?",
+        "reasoning": " Haley gave 2 marbles to each boy, so if she had 28 marbles, she would have given them to 28/2 = 14 boys.",
+        "decomposition": [
+            {
+                "question": "How many marbles did Haley give to each boy?",
+                "answer": "2"
+            },
+            {
+                "question": "How many marbles did Haley have in total?",
+                "answer": "28"
+            },
+            {
+                "question": "How many boys would Haley have given the marbles to if she gave 2 marbles to each boy?",
+                "answer": "28/2"
+            }
+        ]
+    },
+    "instance_44": {
+        "context": "Matthew had 14 crackers and 21 cakes. If Matthew gave equal numbers of crackers and cakes to his 7 friends",
+        "original_question": "How many crackers and cakes did each person eat?",
+        "reasoning": " Matthew gave away a total of 14+21=35 crackers and cakes. If he gave away 7 crackers and 7 cakes to each friend, then each person would have eaten 35/7=5 crackers and cakes.",
+        "decomposition": [
+            {
+                "question": "How many crackers and cakes did Matthew have in total?",
+                "answer": "14+21=35"
+            },
+            {
+                "question": "How many friends did Matthew have?",
+                "answer": "7"
+            },
+            {
+                "question": "How many crackers and cakes did Matthew give away?",
+                "answer": "35"
+            },
+            {
+                "question": "If Matthew gave away the same number of crackers and cakes to each friend, then how many would each person have eaten?",
+                "answer": "35/7"
+            }
+        ]
+    },
+    "instance_45": {
+        "context": "For the walls of the house he would use 4 nails in all to secure large planks of wood. If each plank of wood needs 2 pieces of nails to be secured",
+        "original_question": "How many planks does John need for the house wall?",
+        "reasoning": " For the walls of the house he would use 4 nails in all to secure large planks of wood. If each plank of wood needs 2 pieces of nails to be secured, then that would be 4/2 = 2 planks of wood.",
+        "decomposition": [
+            {
+                "question": "How many nails in total will John use?",
+                "answer": "4"
+            },
+            {
+                "question": "How many nails does each plank of wood need?",
+                "answer": "2"
+            },
+            {
+                "question": "How many planks of wood will the 4 nails secure?",
+                "answer": "4/2"
+            }
+        ]
+    },
+    "instance_46": {
+        "context": "Danny collects bottle caps and wrappers. He found 30 bottle caps and 14 wrappers at the park. Now he has 7 bottle caps and 86 wrappers in his collection.",
+        "original_question": "How many more bottle caps than wrappers did danny find at the park?",
+        "reasoning": " Danny found 30 bottle caps and 14 wrappers at the park. Now he has 7 bottle caps and 86 wrappers in his collection. So he found 30-7=23 bottle caps more than wrappers.",
+        "decomposition": [
+            {
+                "question": "How many bottle caps did Danny find at the park?",
+                "answer": "30"
+            },
+            {
+                "question": "How many wrappers did Danny find at the park?",
+                "answer": "14"
+            },
+            {
+                "question": "How many bottle caps does Danny have in his collection now?",
+                "answer": "7"
+            },
+            {
+                "question": "How many wrappers does Danny have in his collection now?",
+                "answer": "86"
+            }
+        ]
+    },
+    "instance_47": {
+        "context": "He then went to see the oranges being harvested. He found out that they harvest 8 sacks per day and that each sack containes 35 oranges.",
+        "original_question": "How many oranges do they harvest per day?",
+        "reasoning": " They harvest 8 sacks per day and each sack contains 35 oranges. So they must harvest 8*35 = 280 oranges per day.",
+        "decomposition": [
+            {
+                "question": "How many sacks of oranges do they harvest per day?",
+                "answer": "8"
+            },
+            {
+                "question": "How many oranges are in each sack?",
+                "answer": "35"
+            },
+            {
+                "question": "How many oranges do they harvest per day if they use the sacks as a measurement?",
+                "answer": "8*35"
+            }
+        ]
+    },
+    "instance_48": {
+        "context": "Edward spent $ 16 to buy books and $ 8 to buy pens. Now he has $ 19.",
+        "original_question": "How much more did Edward spend on books than pens?",
+        "reasoning": " Edward spent $ 16 on books and $ 8 on pens. To find out how much more he spent on books, we need to find the difference between the two amounts: $ 16 - $ 8 = $ 8.",
+        "decomposition": [
+            {
+                "question": "How much did Edward spend on books?",
+                "answer": "$16"
+            },
+            {
+                "question": "How much did Edward spend on pens?",
+                "answer": "$8"
+            },
+            {
+                "question": "How much is the difference between the amount Edward spent on books and the amount he spent on pens?",
+                "answer": "$16-$8"
+            }
+        ]
+    },
+    "instance_49": {
+        "context": "Emily is making bead necklaces for her friends. Each necklace takes 8 beads and she has 16 beads.",
+        "original_question": "How many necklaces can Emily make?",
+        "reasoning": " Emily can make 2 necklaces because it takes 8 beads to make 1 necklace and she has 16 beads.",
+        "decomposition": [
+            {
+                "question": "How many beads are needed to make one necklace?",
+                "answer": "8"
+            },
+            {
+                "question": "How many beads does Emily have?",
+                "answer": "16"
+            },
+            {
+                "question": "How many necklaces can be made if the number of beads needed to make one necklace is divided into the number of beads Emily has?",
+                "answer": "16/8"
+            }
+        ]
+    },
+    "instance_50": {
+        "context": "Dan has $ 4. He had $ 3 left with him after he bought a candy bar.",
+        "original_question": "How much did the candy bar cost?",
+        "reasoning": " The candy bar cost $3, so it must have cost $4-$3 = $1.",
+        "decomposition": [
+            {
+                "question": "How much money did Dan have in total?",
+                "answer": "$4"
+            },
+            {
+                "question": "How much money did Dan have after he bought the candy bar?",
+                "answer": "$3"
+            }
+        ]
+    }
+}
