@@ -27,3 +27,16 @@ BART model to successfully learn the task.
 ### To See, Fine-tuned BART live in action, [click here](https://colab.research.google.com/drive/1ltIIQpP-pvqpIRzQSjLqs98u3WWRh1vI?usp=share_link).
 
 
+### References:
+
+1) Pruthvi Patel, Swaroop Mishra, Mihir Parmar and Chitta Baral. 2022. Is a
+Question Decomposition Unit All We Need? arXiv:2205.1253.
+2) Tushar Khot, Daniel Khashabi, Kyle Richardson, Peter Clark and Ashish
+Sabharwal. 2021. Text Modular Networks: Learning to Decompose Tasks in
+the Language of Existing Models. arXiv:2009.0075.
+3) Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi
+Wang, Dale Schuurmans, Claire Cui, Olivier Bousquet, Quoc Le and Ed Chi.
+2022. Least-to-Most Prompting Enables Complex Reasoning in Large
+Language Models. arXiv:2250.10625.
+4) Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi and
+Graham Neubig. 2021. Pre-train, Prompt, and Predict. arXiv:2107.13586.
