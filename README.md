@@ -26,6 +26,7 @@ BART model to successfully learn the task.
 
 ### To See, Fine-tuned BART live in action, [click here](https://colab.research.google.com/drive/1ltIIQpP-pvqpIRzQSjLqs98u3WWRh1vI?usp=share_link).
 
+### [Click here, to read the full report.](https://github.com/pathu007/SVAMP_Decomposition_Generation/blob/main/NLP_Project_Final_Report_ref.pdf)
 
 ### References:
 
